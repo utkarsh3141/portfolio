@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-     background-image: url('lightwall1.jpg');
+     background-image: url('lightmode1.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -18,7 +18,7 @@ body {
 
 /* Dark mode */
 body.dark-mode {
-  background-image: url('darkwall1.jpg');
+  background-image: url('darkmode1.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
