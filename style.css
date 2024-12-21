@@ -1,6 +1,6 @@
 /* Global Styles */
 body {
-     background-image: url('lightwall.jpg');
+     background-image: url('lightwall.jpeg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -12,7 +12,7 @@ body {
 /* Dark
 mode */
 body.dark-mode {
-  background-image: url('lightwall.jpeg');
+  background-image: url('darktwall.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
