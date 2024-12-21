@@ -16,7 +16,8 @@ body {
     
 }
 
-/* Dark mode */
+/* Dark
+mode */
 body.dark-mode {
   background-image: url('darkwall.jpg');
     background-repeat: no-repeat;
