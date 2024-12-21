@@ -4,32 +4,26 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background: linear-gradient(45deg, #f0f0f0, #e0e0e0);
-    background-size: 200% 200%;
-    animation: gradientAnimation 15s ease-in-out infinite;
+     background-image: url('lightwall.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
     color: #333;
     transition: background 0.3s ease, color 0.3s ease;
     overflow-x: hidden;
     position: relative; /* for cursor effect */
     
 }
-@keyframes gradientAnimation {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-}
 
 /* Dark mode */
 body.dark-mode {
-  background: linear-gradient(45deg, #1a1a1a, #2a2a2a);
-   background-size: 200% 200%;
-        animation: gradientAnimationDark 15s ease-in-out infinite;
+  background-image: url('darkwall.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+     background-attachment: fixed;
     color: #e0e0e0;
-}
-@keyframes gradientAnimationDark {
-     0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
 }
 
 /*Theme Switch Toggle */
