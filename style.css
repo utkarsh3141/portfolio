@@ -1,31 +1,30 @@
 /* Global Styles */
 body {
-  font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
-     background-image: url('lightwall.jpeg');
+     background-image: url('lightwall.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-     background-attachment: fixed;
-    color: #333; /* Default text color (light mode) */
-   transition: background 0.3s ease, color 0.3s ease;
-     overflow-x: hidden;
+    background-attachment: fixed;
+    color: #333;
+    transition: background 0.3s ease, color 0.3s ease;
+    overflow-x: hidden;
     position: relative; /* for cursor effect */
     
 }
 
 /* Dark mode */
 body.dark-mode {
-  background-image: url('darkwall0');
+  background-image: url('darkwall.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
      background-attachment: fixed;
-     color: #e0e0e0; /* Text color for dark mode*/
+    color: #e0e0e0;
 }
-
 
 /*Theme Switch Toggle */
 .theme-toggle {
@@ -172,14 +171,14 @@ nav {
 nav .logo {
     font-size: 1.5em;
     font-weight: 700;
-     color: #333;
+    color: #333;
     text-decoration: none;
     transition: color 0.3s ease;
 }
-body.dark-mode nav .logo {
-     color:#eee;
-}
 
+body.dark-mode nav .logo {
+  color:#eee;
+}
 
 nav ul {
     list-style: none;
@@ -191,7 +190,7 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-     color: #555;
+    color: #555;
     font-weight: 500;
     transition: color 0.3s ease;
 }
@@ -199,11 +198,10 @@ nav ul li a {
 body.dark-mode nav ul li a {
     color:#ccc;
 }
+
 nav ul li a:hover{
     color: #2980b9;
 }
-
-
  /* Hamburger Menu Styles */
 .menu-icon {
     display: none; /* Hidden by default, shown on smaller screens */
@@ -258,11 +256,11 @@ nav ul.mobile-menu li{
     overflow: hidden;
      animation: backgroundGradient 10s ease-in-out infinite;
 }
+
 body.dark-mode .hero{
    background: linear-gradient(135deg, #4a148c, #2a0a3e);
    animation: backgroundGradientDark 10s ease-in-out infinite;
 }
-
 
 @keyframes backgroundGradient {
     0% { background-position: 0% 50%; }
@@ -296,19 +294,11 @@ body.dark-mode .hero{
 .hero-content h1 {
     font-size: 2.5em;
     margin-bottom: 10px;
-    color:#333; /* Default text color */
 }
 
-body.dark-mode .hero-content h1{
-    color: #e0e0e0;  /* Dark mode text color */
-}
 .hero-content p {
     font-size: 1.1em;
     margin-bottom: 15px;
-    color:#333; /* Default text color */
-}
-body.dark-mode .hero-content p{
-      color:#e0e0e0;
 }
 
 .hero-image {
@@ -365,11 +355,6 @@ body.dark-mode .about {
   text-align: center;
   margin-bottom: 30px;
   font-size: 2em;
-     color:#333; /* Default text color */
-}
-
-body.dark-mode .about h2{
-     color: #e0e0e0;  /* Dark mode text color */
 }
 
 .about-content {
@@ -394,11 +379,6 @@ body.dark-mode .about h2{
 .about-text {
     flex: 2;
     padding: 20px;
-      color:#333; /* Default text color */
-}
-
-body.dark-mode .about-text {
-     color: #e0e0e0;
 }
 
 .about-text p{
@@ -432,12 +412,7 @@ body.dark-mode .interests {
    text-align: center;
    margin-bottom: 30px;
    font-size: 2em;
-    color:#333; /* Default text color */
 }
-body.dark-mode .interests h2{
-   color: #e0e0e0;  /* Dark mode text color */
-}
-
 
 .interests-grid {
     display: grid;
@@ -480,10 +455,7 @@ body.dark-mode .interest-card {
 
 .interest-card h3 {
     margin-bottom: 10px;
-      color:#333; /* Default text color */
-}
-body.dark-mode .interest-card h3{
-  color:#e0e0e0;
+  
 }
 
 .interest-card:hover {
@@ -527,11 +499,6 @@ body.dark-mode .projects {
    text-align: center;
    margin-bottom: 30px;
    font-size: 2em;
-    color:#333; /* Default text color */
-}
-
-body.dark-mode .projects h2{
-  color: #e0e0e0;  /* Dark mode text color */
 }
 
 .project-card {
@@ -556,19 +523,6 @@ body.dark-mode .project-card{
 body.dark-mode .project-card:hover{
      box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
    background-color: rgba(58, 58, 58, 0.9);
-}
-.project-card h3{
-  color:#333; /* Default text color */
-}
-body.dark-mode .project-card h3{
-    color: #e0e0e0; /* Dark mode text color */
-}
-.project-card p{
-    color: #333; /* Default text color */
-}
-
-body.dark-mode .project-card p{
-     color:#e0e0e0; /* Dark mode text color */
 }
 
 /* Contact Section */
@@ -598,21 +552,12 @@ body.dark-mode .contact {
     text-align: center;
     margin-bottom: 30px;
     font-size: 2em;
-      color:#333; /* Default text color */
 }
-body.dark-mode .contact h2{
-      color: #e0e0e0; /* Dark mode text color */
-}
-
 .contact-info {
      max-width: 600px;
     margin: 0 auto;
      line-height: 1.8;
      margin-bottom: 20px;
-     color:#333; /* Default text color */
-}
-body.dark-mode .contact-info {
-    color:#e0e0e0;
 }
 
 .social-links {
@@ -625,14 +570,13 @@ body.dark-mode .contact-info {
 .social-icon{
     font-size: 2em;
     text-decoration: none;
-     color: #555;
+    color: #555;
     transition: color 0.3s ease;
 }
 
 body.dark-mode .social-icon {
-   color:#ccc;
+  color:#ccc;
 }
-
 
 .social-icon:hover {
     color: #2980b9;
@@ -643,14 +587,13 @@ footer {
     padding: 20px 0;
     margin-top: 20px;
     background: rgba(248, 248, 248, 0.8);
-      color: #777;
-     transition: background-color 0.3s ease, color 0.3s ease;
+    color: #777;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 body.dark-mode footer {
     background-color: rgba(42, 42, 42, 0.8);
-      color: #ccc;
+    color: #ccc;
 }
-
  /* Responsive Styles */
  @media (max-width: 768px) {
       header{
@@ -715,6 +658,7 @@ body.dark-mode footer {
       justify-content: center;
     }
 }
+
 
 /* Background Cursor effect */
 body::before {
