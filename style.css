@@ -148,7 +148,7 @@ main {
 
 /* Header and Navigation */
 header {
-    background: rgba(248, 248, 248, 0.9);
+    background: linear-gradient(to right, #f0e6ef, #e1dff0);
     padding: 10px 0;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     position: fixed;
@@ -156,13 +156,14 @@ header {
     left: 0;
     right: 0;
     z-index: 100;
+     border-radius: 0 0 8px 8px;
     transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease; /* Added transform for scrolling */
 }
-
 body.dark-mode header {
-    background-color: rgba(42, 42, 42,0.9);
+    background: linear-gradient(to right, #2a212d, #181630);
     box-shadow: 0 2px 4px rgba(255,255,255,0.1);
 }
+
 
 nav {
     display: flex;
