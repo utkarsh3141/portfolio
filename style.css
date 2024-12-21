@@ -12,7 +12,7 @@ body {
 /* Dark
 mode */
 body.dark-mode {
-  background-image: url('darktwall.jpg');
+  background-image: url('darkwall0');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
