@@ -1,18 +1,11 @@
 /* Global Styles */
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-     background-image: url('lightwall.jpeg');
+     background-image: url('lightwall.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-attachment: fixed;
-    color: #333;
-    transition: background 0.3s ease, color 0.3s ease;
-    overflow-x: hidden;
-    position: relative; /* for cursor effect */
+     background-attachment: fixed;
+    color: #e0e0e0;
     
 }
 
